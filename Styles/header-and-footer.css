@@ -1,0 +1,85 @@
+header {
+    color: rgb(8, 88, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 3rem;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);;
+    position: fixed;
+}
+
+.logo {
+    font-size: 2.1rem;
+    font-weight:800;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    margin-right: 40px;
+    font-size: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+    transition: color 0.3s ;
+}
+nav ul li a:hover {
+    color:green;
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.social-icons a {
+    margin-right: 10px; 
+    transition: color 0.3s ease;
+    /* transition: transform 0.3s;  */
+    color: white;
+    font-size: 30px;
+    
+}
+.social-icons a:hover {
+    /* transform: translateY(-5px); */
+    color: green;
+}
+
+
+#preLoader {
+    background: #fff url("../icons/preLoader.gif") no-repeat center center;
+    background-size: 8%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+}
+
+
+
+
