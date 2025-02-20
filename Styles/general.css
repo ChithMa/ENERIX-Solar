@@ -341,7 +341,7 @@ section {
 
 /* ------- Products page --------- */
 
-main {
+.ProductsMain  {
     padding-top: 100px;
     background-color: #e4f9e2;
 }
