@@ -209,7 +209,8 @@ section {
     justify-content: center;
     align-items: center;
     z-index: 1;
-
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+              url("../images/AboutHeroimg.jpg");
 }
 .aboutContainer h1{
     font-size: 60px;
