@@ -342,11 +342,27 @@ section {
 /* ------- Products page --------- */
 
 .ProductsMain  {
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #e4f9e2;
 }
 
+.productHero {
+    height: 600px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),url("../images/productsHeroimg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.productHero h1 {
+    color: rgb(253, 255, 254);
+    font-size: 4rem;
+    text-shadow: 0 6px 20px rgba(0,0,0,0.9);
+    font-weight: bold;
+    padding-left: 2rem;
+    text-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
 
 .productsContainer {
     display: flex;
